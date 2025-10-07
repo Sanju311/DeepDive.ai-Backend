@@ -1,0 +1,5 @@
+# Enter the container
+docker-compose exec interview-ai-backend /bin/bash
+
+#run module file
+python a

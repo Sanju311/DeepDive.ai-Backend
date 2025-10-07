@@ -1,0 +1,79 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.log
+
+# --- Environments ---
+.env
+.env.*
+venv/
+.venv/
+env/
+ENV/
+.ipynb_checkpoints/
+
+# --- Build & Packaging ---
+build/
+dist/
+*.egg-info/
+*.manifest
+*.spec
+
+# --- Alembic ---
+alembic/versions/*.pyc
+alembic/__pycache__/
+
+# --- Bytecode cache ---
+*.pyc
+__pycache__/
+
+# --- Logs & temp files ---
+*.log
+*.tmp
+*.pid
+*.bak
+*.swp
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs ---
+.vscode/
+.idea/
+
+# --- Docker ---
+*.pid
+*.seed
+*.tar
+*.log
+*.bak
+.dockerignore
+docker-compose.override.yml
+
+# --- Data / Local storage ---
+app/data/*.json
+!app/data/problems.json  # keep your main problems.json if needed
+app/db/
+*.db
+*.sqlite3
+
+# --- Migrations cache ---
+alembic/versions/__pycache__/
+alembic/versions/*.pyc
+
+# --- Test cache ---
+.coverage
+htmlcov/
+.tox/
+pytest_cache/
+
+# --- Redis / Postgres dumps ---
+dump.rdb
+*.sql
+*.backup
